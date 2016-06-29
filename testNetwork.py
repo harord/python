@@ -25,8 +25,8 @@ if not isPoster:
 	target = ("127.0.0.1", 4304)
 else:
 	dataHeaderTitle = chr(0x01) + chr(0x00) + chr(0x02) + chr(0x00)  #0x00020001
-	#target = ("182.137.253.26", 43171)
-	target = ("127.0.0.1", 43171)
+	target = ("182.137.253.26", 43171)
+	#target = ("127.0.0.1", 43171)
 	
 dataHeaderTVID = chr(0x00) * 4 #0x00000000
 dataHeaderTvFrameID = chr(0x00) * 4 #0x00000000
